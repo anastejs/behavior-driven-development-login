@@ -1,18 +1,13 @@
-# BDD Login Test Suite
-### Playwright + Python + Behave
+# Behavior-Driven Development (BDD) Login Test Suite
 
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=flat&logo=python&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-1.60-2EAD33?style=flat&logo=playwright&logoColor=white)
 ![Behave](https://img.shields.io/badge/Behave-1.3.3-FF6B35?style=flat)
 ![BDD](https://img.shields.io/badge/Methodology-BDD-8A2BE2?style=flat)
 
----
-
 A hands-on pet project exploring **Behavior-Driven Development (BDD)** testing methodology using **Playwright** for browser automation and **Behave** as the Python BDD framework. 
 
 The project covers automated login flow testing with scenarios written in human-readable **Gherkin** syntax — bridging the gap between business requirements and test automation.
-
----
 
 ## 🗂️ Project Structure
 
@@ -25,8 +20,6 @@ behavior-driven-development-login/
 ├── requirements.txt
 └── README.md
 ```
-
----
 
 ## Installation
 
@@ -71,9 +64,7 @@ behave --no-capture
 
 > **Behave** — это BDD framework для Python, он запускает тесты, читает .feature файлы (Gherkin), связывает шаги с Python-функциями, управляет execution flow
 
----
-
-### Формат сценариев (язык Gherkin), пример:
+#### Формат сценариев (язык Gherkin), пример:
 
 ```gherkin
 Feature: Login
