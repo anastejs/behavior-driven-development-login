@@ -1,4 +1,4 @@
-# Behavior-Driven Development (BDD) Login Test Suite
+# Login Test Suite | Behavior-Driven Development
 
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=flat&logo=python&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-1.60-2EAD33?style=flat&logo=playwright&logoColor=white)
@@ -16,7 +16,7 @@ behavior-driven-development-login/
 ├── features/
 │   ├── login.feature           # Gherkin scenarios
 │   └── steps/
-│       └── login_steps.py      # Step definitions (Python)
+│       └── login_steps.py      # Step definitions
 ├── requirements.txt
 └── README.md
 ```
@@ -25,7 +25,7 @@ behavior-driven-development-login/
 
 ```bash
 # Clone the repository
-git clone https://github.com/anastejs/saucedemo-playwright-tests.git
+git clone https://github.com/anastejs/behavior-driven-development-login.git
 cd behavior-driven-development-login
 
 # Create and activate virtual environment
@@ -60,9 +60,9 @@ behave --no-capture
 
 > **Behavior-Driven Development** — это подход к разработке (+ стиль описания тестов), в котором поведение системы описывается на понятном человеку языке (почти как сценарии), а затем эти сценарии автоматизируются как тесты.
 
-**Key idea:** tests read like plain English (or any human language), making them understandable to the whole team — not just developers and QA engineers.
+> **Key idea:** tests read like plain English (or any human language), making them understandable to the whole team — not just developers and QA engineers.
 
-> **Behave** — это BDD framework для Python, он запускает тесты, читает .feature файлы (Gherkin), связывает шаги с Python-функциями, управляет execution flow
+**Behave** — это BDD framework для Python, он запускает тесты, читает .feature файлы (Gherkin), связывает шаги с Python-функциями, управляет execution flow
 
 #### Формат сценариев (язык Gherkin), пример:
 
