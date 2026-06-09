@@ -1,9 +1,9 @@
 # Login Test Suite | Behavior-Driven Development
 
-![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=flat&logo=python&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-1.60-2EAD33?style=flat&logo=playwright&logoColor=white)
-![Behave](https://img.shields.io/badge/Behave-1.3.3-FF6B35?style=flat)
-![BDD](https://img.shields.io/badge/Methodology-BDD-8A2BE2?style=flat)
+![Python](https://img.shields.io/badge/Python-3.13-01befe?style=flat&logo=python&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-1.60-ff7d00?style=flat&logo=playwright&logoColor=white)
+![Behave](https://img.shields.io/badge/Behave-1.3.3-ffdd00?style=flat&logoColor=white)
+![BDD](https://img.shields.io/badge/Methodology-BDD-ff006d?style=flat&logoColor=white)
 
 A hands-on pet project exploring **Behavior-Driven Development (BDD)** testing methodology using **Playwright** for browser automation and **Behave** as the Python BDD framework. 
 
